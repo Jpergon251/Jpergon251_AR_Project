@@ -390,17 +390,17 @@ PrefabInstance:
     - target: {fileID: 5972965825011435143, guid: 7a96b0bbfe6f4ed4db8e5286e05f4458,
         type: 3}
       propertyPath: m_TagString
-      value: cat
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5972965825604378866, guid: 7a96b0bbfe6f4ed4db8e5286e05f4458,
         type: 3}
       propertyPath: m_TagString
-      value: stars
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5972965825672993684, guid: 7a96b0bbfe6f4ed4db8e5286e05f4458,
         type: 3}
       propertyPath: m_TagString
-      value: mask
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a96b0bbfe6f4ed4db8e5286e05f4458, type: 3}
@@ -428,7 +428,6 @@ GameObject:
   - component: {fileID: 276288081}
   - component: {fileID: 276288080}
   - component: {fileID: 276288083}
-  - component: {fileID: 276288084}
   m_Layer: 0
   m_Name: Visual Scripts
   m_TagString: Untagged
@@ -474,8 +473,6 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material1","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material2","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material3","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"currentGlassesTag","value":{"$content":"cat","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentMaterial","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 129874217}
@@ -487,7 +484,6 @@ MonoBehaviour:
     - {fileID: 2100000, guid: abf8deedc25a657488fc94c13037bea5, type: 2}
     - {fileID: 2100000, guid: d67576630a98b3043b2426c3bdf5bfc4, type: 2}
     - {fileID: 2100000, guid: cbece018f07124e47b2cf749b9cf0f37, type: 2}
-    - {fileID: 5561349426305759274, guid: 6b3199884720a1f429171a2626184a1e, type: 3}
 --- !u!4 &276288082
 Transform:
   m_ObjectHideFlags: 0
@@ -519,22 +515,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 00e804c7bf6540d4194181f6d21aa9a9, type: 2}
---- !u!114 &276288084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276288079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 9a42d13c205def346ac0a2edb8300f8b, type: 2}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +795,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1307548297, guid: b2c9b5887946fd9469d25cf01e5ea1f9,
+      objectReference: {fileID: 2081408401, guid: b2c9b5887946fd9469d25cf01e5ea1f9,
         type: 3}
     - target: {fileID: 6206005521491851798, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
@@ -1047,7 +1027,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1989950498, guid: b2c9b5887946fd9469d25cf01e5ea1f9,
+      objectReference: {fileID: 1307548297, guid: b2c9b5887946fd9469d25cf01e5ea1f9,
         type: 3}
     - target: {fileID: 6206005522389524144, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
